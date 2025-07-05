@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.sidebar_navegation{
+    background-color: #5DE6F5;
+    width: 100%;
+    margin-top: 24px;
+    position: fixed;
+    z-index: 20;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Inter", sans-serif;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.35);
+    font-weight: 600;
+}
+.menu_logo{
+    width: auto;
+    height: 56px;
+    margin-left: 64px;
+}
+.navegation{
+    display: flex;
+    width: auto;
+    height: 100%;
+    align-items: center;
+}
+.navegation_list{
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+.navegation_list li a{
+    color: white;
+}
+.navegation_list li a:hover{
+    color: black;
+}
+
+.button_login{
+    align-self: center;
+    margin-right: 64px;
+}
