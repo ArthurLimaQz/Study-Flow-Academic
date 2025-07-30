@@ -1,43 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-.sidebar_navegation{
-    background-color: #5DE6F5;
+* {
+    font-family: "public sans";
+}
+
+.navbar {
+    background-color: white;
     width: 100%;
-    margin-top: 24px;
-    position: fixed;
-    z-index: 20;
-    height: 64px;
     display: flex;
+    height: 65px;
     justify-content: space-between;
-    font-family: "Inter", sans-serif;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.35);
-    font-weight: 600;
-}
-.menu_logo{
-    width: auto;
-    height: 56px;
-    margin-left: 64px;
-}
-.navegation{
-    display: flex;
-    width: auto;
-    height: 100%;
+    box-shadow: 0 0 1px 0;
     align-items: center;
 }
-.navegation_list{
+
+.titulo {
     display: flex;
-    list-style: none;
-    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
 }
 
-.navegation_list li a{
-    color: white;
+.imagem {
+    width: 4rem;
+    height: auto;
+    margin-left: 1rem;
 }
-.navegation_list li a:hover{
+
+.navbar_serviços {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.navbar_serviços li {
+    padding-right: 2.25rem;
+    font-weight: medium;
+
+}
+
+.navbar_serviços li a {
     color: black;
 }
 
-.button_login{
-    align-self: center;
-    margin-right: 64px;
+.navbar_serviços li button {
+    background-color: #0D80F2;
+    padding: 1rem;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    /*Faz o movimento do botão */
+}
+
+.navbar_serviços li button a {
+    color: #fff;
+}
+
+.navbar li button:hover {
+    opacity: 0.8;
+    scale: .98;
+}
+
+#menu {
+    display: none;
 }
