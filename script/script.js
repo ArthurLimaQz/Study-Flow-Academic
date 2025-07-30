@@ -10,7 +10,6 @@ function clickMenu() {
 };
 if(window.innerWidth > 900){
     menuOpen.style.display = 'none'
-    menuOpen.style.width = 0
 };
 
 // Quando a tela for redimensionada...
