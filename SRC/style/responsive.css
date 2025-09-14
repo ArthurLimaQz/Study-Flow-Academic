@@ -34,6 +34,7 @@
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
         z-index: 2;
+        overflow-x: hidden;
         width: 100dvw;
         height: calc(100dvh - 4rem);
     }
@@ -196,4 +197,3 @@
 
     }
 }
-
